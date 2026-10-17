@@ -32,6 +32,7 @@ data/anon2026_50k.csv
 
 ## Project Structure
 
+```text
 Group4-day1-assignment/
 ├── data/
 │   ├── .gitkeep
