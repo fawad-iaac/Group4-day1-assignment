@@ -1,0 +1,21 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints and backups
+.ipynb_checkpoints/
+*_backup.ipynb
+
+# Ignore generated datasets except the project dataset
+data/*
+!data/.gitkeep
+!data/anon2026_50k.csv
+
+# Credentials
+.env
+kaggle.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
