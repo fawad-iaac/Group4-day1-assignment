@@ -30,13 +30,8 @@ The notebook reads the anonymised dataset from:
 
 data/anon2026_50k.csv
 
-The raw dataset is excluded from Git to avoid committing a large data file.
-
-Place the dataset in the project root before running the notebook.
-
 ## Project Structure
 
-```text
 Group4-day1-assignment/
 ├── data/
 │   ├── .gitkeep
