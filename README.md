@@ -60,7 +60,7 @@ Group4-day1-assignment/
 ├── .gitignore
 └── README.md
 
-## 5. How to run
+## 7. How to run
 
 Clone the repository and enter the project folder:
 
@@ -95,7 +95,7 @@ python -m pip install -r requirements.txt
 
 Open `notebook/data_cleaning_and_EDA.ipynb` in Jupyter in VS Code, select the `.venv` Python kernel, then choose **Restart Kernel → Run All**. The notebook should acquire or load its input data and create the cleaned dataset and exported figures using relative paths. **Confirm the actual download method and paths in the final notebook before publishing these instructions.**
 
-## 6. Data quality checks and cleaning
+## 8. Data quality checks and cleaning
 
 The cleaning workflow checks for duplicated records, missing values, inconsistent data types and potential outliers. Each change should be documented in the notebook with a reason for the decision.
 
@@ -109,7 +109,7 @@ The cleaning workflow checks for duplicated records, missing values, inconsisten
 
 **Cleaned output:** `[insert exact relative path and filename]`.
 
-## 7. Exploratory data analysis
+## 9. Exploratory data analysis
 
 The notebook should contain descriptive statistics, univariate distributions, bivariate comparisons, grouped summaries and correlation analysis. Interpretations must distinguish observed associations from causal relationships.
 
@@ -135,7 +135,7 @@ The notebook should contain descriptive statistics, univariate distributions, bi
 
 [Summarize a grouped comparison or correlation finding. Explain that correlation does not establish causation.]
 
-## 8. Key findings
+## 10. Key findings
 
 Replace the placeholders below with **3–6 findings supported by the executed notebook**:
 
@@ -145,13 +145,13 @@ Replace the placeholders below with **3–6 findings supported by the executed n
 - **Building characteristics:** [One measured group difference or association].
 - **Data quality:** [One quantitative result of cleaning or validation].
 
-## 9. Limitations and biases
+## 11. Limitations and biases
 
 - The dataset has few missing data for building types, households or geographical areas; confirm the actual coverage.
 - EPC ratings and measured consumption describe related but different aspects of building energy performance.
 - Changes in energy consumption may also reflect weather, energy prices and occupancy; observed trends alone do not establish causes.
 
-## 11. AI usage disclosure
+## 12. AI usage disclosure
 
 **Tool:** ChatGPT (conversational assistance; not an autonomous agent editing the repository in this workflow).
 
