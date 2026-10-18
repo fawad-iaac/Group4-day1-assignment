@@ -114,11 +114,11 @@ The cleaning workflow checks for duplicated records, missing values, inconsisten
 The notebook should contain descriptive statistics, univariate distributions, bivariate comparisons, grouped summaries and correlation analysis. Interpretations must distinguish observed associations from causal relationships.
 
 
-### EPC distribution and energy performance
+### Annual Electricity consumption Tread 2005-2024
 
-This visualization shows the distribution of Energy Performance Certificate (EPC) ratings across the housing dataset, helping identify the most common energy performance categories.
+This visualization shows use of electricity consumption across the housing dataset, helping understand change in consumption amount. 
 
-![EPC Distribution](figures/average_annual_electricity_consumption.png)
+![Annual_Energy_Consumption_Tread](figures/average_annual_electricity_consumption.png)
 
 ### Gas consumption trends
 
@@ -126,23 +126,23 @@ This graph presents average annual gas consumption, providing insight into gas e
 
 ![Average Annual Gas Consumption](figures/average_annual_gas_consumption.png)
 
-### Electricity consumption trends
+### Energy Consumption by Building Type
 
-This graph presents average annual electricity consumption, allowing us to examine patterns in electricity demand.
+This graph compares energy consumption across different building types, helping investigate differences in building energy demand.
 
-![Average Annual Electricity Consumption](figures/average_energy_by_building_type.png)
+![Average Energy Consumption_By_Building_Type](figures/average_energy_by_building_type.png)
+
+### EPC Distribution and Energy Performance
+
+This visualization shows the distribution of Energy Performance Certificate (EPC) ratings across the housing dataset, helping identify the most common energy performance categories.
+
+![EPC_Distribution](figures/epc_distribution.png)
 
 ### Gas vs Electricity Consumption Trends (2005–2024)
 
 This graph compares gas and electricity consumption trends over time, using an indexed baseline of 2005 = 100.
 
-![Gas vs Electricity Consumption Trends](figures/epc_distribution.png)
-
-### Energy Consumption by Building Type
-
-This graph compares energy consumption across different building types, helping investigate differences in building energy demand.
-
-![Average Energy by Building Type](figures/gas_vs_electricity_consumption_trends.png)
+![Gas vs Electricity Consumption Trends](figures/gas_vs_electricity_consumption_trends.png)
 
 
 ## 10. Key findings
